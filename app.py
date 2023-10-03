@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # loading the trained model
-model = pickle.load(open("https://github.com/luch91/Spam-Message-Classification-App-Streamlit/blob/main/model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 
 # create title
 
